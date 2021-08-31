@@ -1,6 +1,5 @@
 # Card-Yugioh-3D
 
-<h1 align='center'>Pokédex</h1>
 <hr>
 <h2>📋 Sobre o projeto</h2>
 <p>Animação 3D criada com CSS Puro.</p>
