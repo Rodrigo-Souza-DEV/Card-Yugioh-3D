@@ -8,7 +8,7 @@ body {
     align-items: center;
     padding: 1rem 6rem;
     flex-direction: column;
-    background-image: url("img/background.jpg");
+    background-image: url("../assets/img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -48,7 +48,7 @@ input {
     background-size: 100%;
     background-position: center;
     border-radius: 15px;
-    background-image: url("img/card\ back.png");
+    background-image: url("../assets/img/cardback.png");
 }
 
 .item:hover {
@@ -61,17 +61,17 @@ input {
 
 #obl:checked~.container>.card1 {
     transform: rotateY(180deg) scaleX(-1);
-    background-image: url("img/obelisk.png");
+    background-image: url("../assets/img/obelisk.png");
 }
 
 #ra:checked~.container>.card2 {
     transform: rotateY(180deg) scaleX(-1);
-    background-image: url("img/ra.png");
+    background-image: url("../assets/img/ra.png");
 }
 
 #slifer:checked~.container>.card3 {
     transform: rotateY(180deg) scaleX(-1);
-    background-image: url("img/slifer.png");
+    background-image: url("../assets/img/slifer.png");
 }
 
 label {
